@@ -9,7 +9,7 @@ git config --local user.name Travis
 git config --local user.email 187746@edu.p.lodz.pl
 git add -A
 git commit -m "build"
-git push -f origin bin
+git push -f origin bin >> /dev/null 2>> /dev/null
 cd ..
 rm -rf depbin
 echo "Build deployed"
