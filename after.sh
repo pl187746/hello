@@ -8,5 +8,6 @@ git config --local user.name Travis
 git config --local user.email 187746@edu.p.lodz.pl
 git add -A
 git commit -m "build"
+git push -f https://pl187746:$ASDF@github.com/pl187746/hello bin
 cd ..
 rm -rf depbin
