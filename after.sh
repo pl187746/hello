@@ -1,4 +1,4 @@
 #!/bin/sh
-echo Hello
+echo AAAA
 echo $ASDF
-echo World
+echo BBBB
