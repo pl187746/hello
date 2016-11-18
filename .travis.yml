@@ -2,8 +2,4 @@ language: java
 jdk:
  - oraclejdk8
 after_success:
- - git checkout bin
- - echo "Hello" >> hello.txt
- - git add hello.txt
- - git commit -m "hehe"
- - git checkout master
+ - echo $ASDF
