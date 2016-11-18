@@ -6,4 +6,4 @@ after_success:
  - ./after.sh
 branches:
  only:
-  - master
+ - master
